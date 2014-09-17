@@ -36,3 +36,4 @@ io.sockets.on('connection', socket);
 var port = process.env.PORT || 5000;
 
 server.listen(port);
+console.log ( 'server on: 5000');
